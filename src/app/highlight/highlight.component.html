@@ -1,0 +1,12 @@
+<h3>source files</h3>
+
+<div class="left-align">
+  <ul *ngFor="let file of sourceFiles;">
+    <li>
+      <h5>{{ file.lang }}</h5>
+      <pre>
+        <code class="{{ file.lang }}">{{ file.content }}</code>
+      </pre>
+    </li>
+  </ul>
+</div>

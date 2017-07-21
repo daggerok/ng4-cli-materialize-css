@@ -1,0 +1,50 @@
+{
+  "name": "ng4-cli-materialize-highlight",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --port 3000 --open",
+    "build": "ng build --aot --prod",
+    "lint": "ng lint",
+    "serve": "serve -p 8080 dist",
+    "stop": "kill -9 $(lsof -i tcp:3000 | grep -v PID | awk '{print $2}') | true"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "4.0.0",
+    "@angular/compiler": "4.0.0",
+    "@angular/core": "4.0.0",
+    "@angular/forms": "4.0.0",
+    "@angular/http": "4.0.0",
+    "@angular/platform-browser": "4.0.0",
+    "@angular/platform-browser-dynamic": "4.0.0",
+    "@angular/router": "4.0.0",
+    "angular2-highlight-js": "5.0.2",
+    "angular2-materialize": "15.0.4",
+    "core-js": "2.4.1",
+    "hammerjs": "2.0.8",
+    "jquery": "2.2.4",
+    "material-design-icons": "3.0.1",
+    "materialize-css": "0.100.0",
+    "roboto-fontface": "0.8.0",
+    "rxjs": "5.1.0",
+    "zone.js": "0.8.4"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.0.6",
+    "@angular/compiler-cli": "4.0.0",
+    "@types/node": "6.0.60",
+    "codelyzer": "2.0.0",
+    "serve": "6.0.2",
+    "ts-node": "2.0.0",
+    "tslint": "4.5.0",
+    "typescript": "2.2.0"
+  },
+  "keywords": [
+    "angular 4",
+    "@angular/cli",
+    "materialize-css",
+    "highlight.js"
+  ]
+}
